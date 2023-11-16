@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoverGo.Task.Application\CoverGo.Task.Application.csproj" />
+    <ProjectReference Include="..\CoverGo.Task.Infrastructure.Persistence.InMemory\CoverGo.Task.Infrastructure.Persistence.InMemory.csproj" />
+  </ItemGroup>
+
+</Project>

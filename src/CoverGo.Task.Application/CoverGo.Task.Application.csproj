@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoverGo.Task.Domain\CoverGo.Task.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+{
+  "name": "covergo-task",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start:fe": "cd ./src/CoverGo.Task.Ui/ && pnpm run serve",
+    "start:be": "dotnet watch --project ./src/CoverGo.Task.Api/CoverGo.Task.Api.csproj"
+  }
+}

@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Swagger -->
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageVersion Include="Moq" Version="4.20.69" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <!-- DI -->
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageVersion Include="xunit" Version="2.4.2" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageVersion Include="coverlet.collector" Version="3.2.0" />
+  </ItemGroup>
+</Project>
